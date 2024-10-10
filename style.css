@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-font: "Krona one", sans-serif;
+    --second-font: "Montserrat", sans-serif;
+}
+
+html, body {
+    font-family: var(--primary-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+.header-container {
+    background-color: gray;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.header-logo-img {
+    width: 20%;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo-text {
+    display: inline-block;
+    color: white;
+}
+
+/* .header-info-text {
+    color: white;
+} */
+
+.header-info-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-image {
+    width: 100%;
+}
