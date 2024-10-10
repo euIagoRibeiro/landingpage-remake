@@ -99,7 +99,7 @@ ul {
 .section1-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.900)), url(images/science1.png);
     background-repeat: no-repeat;
-    background-size: 300%;
+    background-size: 320%;
 }
 
 .section1-content {
@@ -151,7 +151,7 @@ ul {
 .section2-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.900)), url(images/science2.png);
     background-repeat: no-repeat;
-    background-size: 400%;
+    background-size: 420%;
 }
 
 .section2-content {
@@ -284,4 +284,28 @@ ul {
     color: var(--text-color);
     font-size: 0.9rem;
     margin: 0% 0% 6% 0%;
+}
+
+@media (max-width: 375px) {
+    .header-content {
+        gap: 50px;
+    }
+    .header-menu {
+        padding: 0% 0% 0% 0%;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 425px) {
+    .header-menu {
+        padding: 0% 0% 0% 5%;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .header-menu {
+        padding: 0% 0% 0% 40%;
+    }
+
 }
