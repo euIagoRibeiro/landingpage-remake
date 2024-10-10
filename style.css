@@ -25,6 +25,10 @@ ul {
     list-style-type: none;
 }
 
+.line {
+    border: 1px solid rgba(43, 43, 43, 0.527);
+}
+
 /* HEADER */
 
 .header-container {
@@ -112,6 +116,7 @@ ul {
     text-shadow: black 2px 5px;
     margin: 15% 0% 0% 0%;
     font-size: 2rem;
+    line-height: 1.5;
 
 }
 
@@ -127,11 +132,67 @@ ul {
     text-shadow: black 2px 5px;
     margin: 0% 0% 15% 0%;
     font-size: 1.7rem;
+    line-height: 1.4;
 }
 
 .section1-images-image {
     width: 78vw;
     border: 2px transparent;
     border-radius: 20px;
-    margin: 0% 0% 40% 0%;
+    margin: 0% 0% 35% 0%;
+}
+
+/* SECTION 2 */
+
+.section2-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.900), rgba(0, 0, 0, 0.900)), url(images/sci.png);
+    background-repeat: no-repeat;
+    background-size: 400%;
+}
+
+.section2-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0% 9% 0% 9%;
+}
+
+.section2-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.section2-text-title {
+    text-shadow: black 2px 5px;
+    margin: 15% 0% 0% 0%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    line-height: 1.5;
+
+}
+
+.section2-text-line {
+    text-shadow: black 2px 5px;
+    margin: 15% 0% 15% 0%;
+
+}
+
+.section2-text-desc {
+    font-family: var(--second-font);
+    font-weight: 200;
+    text-shadow: black 2px 5px;
+    margin: 0% 0% 18% 0%;
+    padding: 0% 1% 0% 1%;
+    font-size: 2rem;
+    line-height: 1.4;
+    font-size: 1.60rem;
+}
+
+.section2-images-image {
+    width: 78vw;
+    border: 2px transparent;
+    border-radius: 20px;
+    margin: 0% 0% 35% 0%;
 }
